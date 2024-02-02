@@ -15,7 +15,7 @@ spec:
         code: red
     spec:
       containers:
-        - image: 'docker.io/opsmxdev/issuegen:v3.0.6'
+        - image: docker.io/opsmxdev/issuegen:v3.0.6
           name: issuegen
           ports:
             - containerPort: 8088
